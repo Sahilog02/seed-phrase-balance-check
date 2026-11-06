@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <rect width="256" height="256" fill="#0B0F14"/>
+  <!-- etched frame corners -->
+  <path d="M10 34 L10 10 L34 10" fill="none" stroke="#3DDC97" stroke-width="1.5" opacity="0.55"/>
+  <path d="M222 10 L246 10 L246 34" fill="none" stroke="#3DDC97" stroke-width="1.5" opacity="0.55"/>
+  <path d="M246 222 L246 246 L222 246" fill="none" stroke="#3DDC97" stroke-width="1.5" opacity="0.55"/>
+  <path d="M34 246 L10 246 L10 222" fill="none" stroke="#3DDC97" stroke-width="1.5" opacity="0.55"/>
+  <!-- faint forensic grid ticks -->
+  <path d="M128 16 L128 26 M128 230 L128 240 M16 128 L26 128 M230 128 L240 128" stroke="#E6EDF3" stroke-width="1" opacity="0.25"/>
+  <!-- balance scale, off-center and slightly cropped low -->
+  <g transform="translate(0,6)">
+    <!-- central column -->
+    <polygon points="126,74 130,74 130,196 126,196" fill="#F2B84B"/>
+    <!-- column etching -->
+    <path d="M127 84 L127 186 M129 92 L129 178" stroke="#0B0F14" stroke-width="1" opacity="0.5"/>
+    <!-- base -->
+    <polygon points="98,196 158,196 168,208 88,208" fill="#F2B84B"/>
+    <path d="M100 200 L156 200" stroke="#0B0F14" stroke-width="1.5" opacity="0.6"/>
+    <path d="M92 204 L164 204" stroke="#0B0F14" stroke-width="1" opacity="0.4"/>
+    <!-- beam -->
+    <polygon points="44,80 212,80 212,86 44,86" fill="#F2B84B"/>
+    <path d="M52 83 L204 83" stroke="#0B0F14" stroke-width="1" opacity="0.45"/>
+    <!-- pivot -->
+    <polygon points="120,66 136,66 136,82 120,82" fill="#E6EDF3"/>
+    <polygon points="124,70 132,70 132,78 124,78" fill="#0B0F14"/>
+    <path d="M114 84 L142 84 L138 90 L118 90 Z" fill="#F2B84B"/>
+    <!-- left suspension chains -->
+    <path d="M58 86 L52 128 M66 86 L60 128" stroke="#E6EDF3" stroke-width="2" fill="none"/>
+    <!-- left pan -->
+    <polygon points="38,128 82,128 74,146 46,146" fill="#F2B84B"/>
+    <path d="M42 131 L78 131" stroke="#0B0F14" stroke-width="1.2" opacity="0.55"/>
+    <path d="M47 140 L73 140" stroke="#0B0F14" stroke-width="1" opacity="0.35"/>
+    <!-- key resting in left pan -->
+    <g transform="translate(60,120) rotate(-18)">
+      <polygon points="-14,-3 8,-3 8,3 -14,3" fill="#E6EDF3"/>
+      <polygon points="8,-6 14,-6 14,6 8,6" fill="#E6EDF3"/>
+      <polygon points="14,-2 22,-2 22,2 14,2" fill="#E6EDF3"/>
+      <polygon points="14,4 20,4 20,7 14,7" fill="#E6EDF3"/>
+      <circle cx="-10" cy="0" r="3.5" fill="#0B0F14"/>
+      <circle cx="-10" cy="0" r="1.6" fill="#E6EDF3"/>
+    </g>
+    <!-- right suspension chains -->
+    <path d="M190 86 L196 128 M198 86 L204 128" stroke="#E6EDF3" stroke-width="2" fill="none"/>
+    <!-- right pan -->
+    <polygon points="174,128 218,128 210,146 182,146" fill="#F2B84B"/>
+    <path d="M178 131 L214 131" stroke="#0B0F14" stroke-width="1.2" opacity="0.55"/>
+    <path d="M183 140 L209 140" stroke="#0B0F14" stroke-width="1" opacity="0.35"/>
+    <!-- glowing seed on right pan -->
+    <g transform="translate(196,122)">
+      <path d="M0,-10 C6,-4 6,4 0,10 C-6,4 -6,-4 0,-10 Z" fill="#3DDC97"/>
+      <path d="M0,-6 C3,-2 3,2 0,6" fill="none" stroke="#E6EDF3" stroke-width="1.1" opacity="0.85"/>
+      <!-- glow rays -->
+      <path d="M0,-14 L0,-12 M10,-8 L8,-6 M-10,-8 L-8,-6 M8,8 L6,6 M-8,8 L-6,6 M0,14 L0,12" stroke="#3DDC97" stroke-width="1.4" opacity="0.8"/>
+    </g>
+    <!-- tension scratch marks near pivot -->
+    <path d="M142 62 L148 56 M136 58 L140 52" stroke="#F2B84B" stroke-width="1" opacity="0.65"/>
+  </g>
+</svg>
